@@ -10,7 +10,7 @@ class Shoe
     yield(brand_check)
   end
   
-  brand_check do
+  initialize do
     BRANDS.each do | shoe_brand |
       if @brand == shoe_brand
         BRANDS << @brand
