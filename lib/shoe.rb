@@ -12,7 +12,7 @@ class Shoe
   
   initialize do
     BRANDS.each do | shoe_brand |
-      if @brand == shoe_brand
+      if @brand != shoe_brand
         BRANDS << @brand
       end  
     end
