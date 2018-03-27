@@ -7,16 +7,14 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    yield
-  end
-  
-  initialize do
     BRANDS.each do | shoe_brand |
       if @brand != shoe_brand
         BRANDS << @brand
       end  
     end
   end
+  
+
   
   def 
 
