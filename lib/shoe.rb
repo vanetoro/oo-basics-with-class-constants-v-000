@@ -11,6 +11,7 @@ class Shoe
       if brand != show_brand
         BRANDS << @brand
       end  
+    end
   end
 
   def cobble
