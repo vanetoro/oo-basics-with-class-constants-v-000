@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    yield(brand_check)
+    yield
   end
   
   initialize do
